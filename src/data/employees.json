@@ -1,0 +1,62 @@
+[
+    {
+        "id": "emp_001",
+        "employeeNumber": "HR2024001",
+        "name": "أحمد محمد علي",
+        "email": "ahmed@company.com",
+        "phone": "201234567890",
+        "department": "تقنية المعلومات",
+        "position": "مطور برمجيات أول",
+        "salary": 12000,
+        "startDate": "2024-01-15T00:00:00.000Z",
+        "endDate": null,
+        "status": "active",
+        "bankAccount": "123456789",
+        "nationalId": "12345678901234",
+        "address": "القاهرة، مصر",
+        "birthDate": "1990-05-15T00:00:00.000Z",
+        "gender": "male",
+        "maritalStatus": "married",
+        "emergencyContact": {
+            "name": "فاطمة أحمد",
+            "phone": "201234567891",
+            "relation": "زوجة",
+            "address": "القاهرة، مصر"
+        },
+        "workSchedule": {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "workDays": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday"
+            ],
+            "breakTime": "60"
+        },
+        "benefits": {
+            "medicalInsurance": true,
+            "lifeInsurance": false,
+            "transportationAllowance": 500,
+            "mealAllowance": 300
+        },
+        "attendance": {
+            "totalWorkingDays": 22,
+            "presentDays": 20,
+            "absentDays": 2,
+            "lateDays": 1,
+            "overtimeHours": 10
+        },
+        "documents": [
+            "cv.pdf",
+            "nationalId.pdf",
+            "bankStatement.pdf"
+        ],
+        "notes": "موظف مميز - أداء ممتاز",
+        "createdBy": "admin",
+        "createdAt": "2024-01-15T00:00:00.000Z",
+        "updatedBy": "admin",
+        "updatedAt": "2024-01-15T00:00:00.000Z"
+    }
+]

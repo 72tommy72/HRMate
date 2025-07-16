@@ -1,0 +1,67 @@
+{
+    "id": "settings_001",
+    "category": "general",
+    "settings": {
+        "companyInfo": {
+            "name": "شركة الموارد البشرية المتقدمة",
+            "nameEn": "Advanced HR Solutions",
+            "logo": "company_logo.png",
+            "address": "القاهرة، مصر",
+            "phone": "201234567890",
+            "email": "info@company.com",
+            "website": "https://company.com",
+            "taxNumber": "123456789",
+            "commercialRegister": "987654321"
+        },
+        "financial": {
+            "defaultCurrency": "EGP",
+            "taxRate": 14,
+            "fiscalYearStart": "01-01",
+            "invoicePrefix": "INV",
+            "receiptPrefix": "REC",
+            "paymentTerms": 30,
+            "autoApprovalLimit": 1000
+        },
+        "whatsapp": {
+            "isEnabled": true,
+            "autoSendSalaryNotifications": true,
+            "autoSendReminderNotifications": true,
+            "messageTemplates": {
+                "salaryNotification": "مرحباً {name}، تم إيداع راتبك الشهري بمبلغ {amount} جنيه",
+                "reminder": "تذكير: {message}",
+                "welcome": "مرحباً بك في شركتنا، {name}"
+            }
+        },
+        "notifications": {
+            "emailEnabled": true,
+            "smsEnabled": false,
+            "whatsappEnabled": true,
+            "inAppEnabled": true,
+            "reminderDays": [
+                1,
+                3,
+                7
+            ]
+        },
+        "security": {
+            "passwordMinLength": 8,
+            "passwordRequireNumbers": true,
+            "passwordRequireSymbols": true,
+            "sessionTimeout": 480,
+            "maxLoginAttempts": 5,
+            "lockoutDuration": 30
+        },
+        "system": {
+            "maintenanceMode": false,
+            "autoBackup": true,
+            "backupFrequency": "daily",
+            "logRetentionDays": 90,
+            "defaultLanguage": "ar",
+            "defaultTimezone": "Africa/Cairo"
+        }
+    },
+    "createdBy": "admin",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedBy": "admin",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+}

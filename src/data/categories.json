@@ -1,0 +1,37 @@
+[
+    {
+        "id": "cat_001",
+        "name": "استشارات تقنية",
+        "nameEn": "Technical Consulting",
+        "type": "income",
+        "description": "خدمات الاستشارات التقنية والبرمجية",
+        "color": "#3B82F6",
+        "icon": "💻",
+        "parentId": null,
+        "subcategories": [
+            {
+                "id": "subcat_001",
+                "name": "استشارات البرمجيات",
+                "nameEn": "Software Consulting"
+            },
+            {
+                "id": "subcat_002",
+                "name": "استشارات قواعد البيانات",
+                "nameEn": "Database Consulting"
+            }
+        ],
+        "budgetLimit": 50000,
+        "isActive": true,
+        "sortOrder": 1,
+        "defaultTaxRate": 14,
+        "accountingCode": "4001",
+        "tags": [
+            "consulting",
+            "technical"
+        ],
+        "createdBy": "admin",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedBy": "admin",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "id": "client_001",
+        "clientNumber": "CLT2024001",
+        "name": "شركة التكنولوجيا المتقدمة",
+        "company": "Advanced Tech Solutions",
+        "email": "info@techadvanced.com",
+        "phone": "201234567890",
+        "alternativePhone": "201234567899",
+        "website": "https://techadvanced.com",
+        "industry": "تكنولوجيا المعلومات",
+        "address": {
+            "street": "شارع النيل، الزمالك",
+            "city": "القاهرة",
+            "governorate": "القاهرة",
+            "country": "مصر",
+            "postalCode": "11211"
+        },
+        "contactPerson": {
+            "name": "محمد أحمد الديب",
+            "position": "مدير التقنية",
+            "email": "mohamed@techadvanced.com",
+            "phone": "201234567891"
+        },
+        "financialInfo": {
+            "creditLimit": 100000,
+            "paymentTerms": "30",
+            "taxNumber": "123456789",
+            "currency": "EGP"
+        },
+        "businessInfo": {
+            "foundedYear": 2015,
+            "employeeCount": 50,
+            "annualRevenue": 5000000,
+            "businessType": "شركة مساهمة"
+        },
+        "totalProjects": 5,
+        "activeProjects": 2,
+        "completedProjects": 3,
+        "totalPayments": 75000,
+        "outstandingPayments": 15000,
+        "lastPaymentDate": "2024-11-01T00:00:00.000Z",
+        "status": "active",
+        "priority": "high",
+        "source": "website",
+        "contractStartDate": "2024-01-01T00:00:00.000Z",
+        "contractEndDate": "2024-12-31T00:00:00.000Z",
+        "documents": [
+            "contract.pdf",
+            "tax_certificate.pdf"
+        ],
+        "notes": "عميل مميز - أولوية عالية",
+        "tags": [
+            "vip",
+            "tech",
+            "long_term"
+        ],
+        "socialMedia": {
+            "facebook": "https://facebook.com/techadvanced",
+            "linkedin": "https://linkedin.com/company/techadvanced",
+            "twitter": "@techadvanced"
+        },
+        "createdBy": "admin",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedBy": "admin",
+        "updatedAt": "2024-11-01T00:00:00.000Z"
+    }
+]

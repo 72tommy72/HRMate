@@ -1,0 +1,67 @@
+[
+    {
+        "id": "user_001",
+        "username": "admin",
+        "email": "admin@company.com",
+        "password": "$2b$10$...",
+        "role": "admin",
+        "status": "active",
+        "permissions": [
+            "transactions.read",
+            "transactions.create",
+            "transactions.update",
+            "transactions.delete",
+            "employees.read",
+            "employees.create"
+        ],
+        "employeeId": "emp_001",
+        "profile": {
+            "firstName": "أحمد",
+            "lastName": "محمد",
+            "avatar": "avatar_admin.jpg",
+            "phone": "201234567890",
+            "language": "ar",
+            "timezone": "Africa/Cairo",
+            "dateFormat": "DD/MM/YYYY",
+            "timeFormat": "24h"
+        },
+        "security": {
+            "lastLogin": "2024-12-01T10:00:00.000Z",
+            "lastLoginIP": "192.168.1.100",
+            "loginAttempts": 0,
+            "isLocked": false,
+            "lockUntil": null,
+            "passwordChangedAt": "2024-01-01T00:00:00.000Z",
+            "mustChangePassword": false,
+            "twoFactorEnabled": false
+        },
+        "preferences": {
+            "theme": "light",
+            "notifications": {
+                "email": true,
+                "sms": false,
+                "whatsapp": true,
+                "inApp": true
+            },
+            "dashboard": {
+                "defaultView": "overview",
+                "autoRefresh": true,
+                "refreshInterval": 30
+            }
+        },
+        "sessions": [
+            {
+                "id": "session_001",
+                "token": "jwt_token_here",
+                "device": "Chrome on Windows",
+                "ip": "192.168.1.100",
+                "startedAt": "2024-12-01T10:00:00.000Z",
+                "lastActiveAt": "2024-12-01T14:30:00.000Z"
+            }
+        ],
+        "createdBy": "system",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedBy": "admin",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "id": "txn_001",
+        "transactionNumber": "TXN2024001",
+        "type": "income",
+        "amount": 5000,
+        "currency": "EGP",
+        "description": "استشارة تقنية لشركة ABC",
+        "category": "consulting",
+        "subcategory": "software_consulting",
+        "date": "2024-12-01T10:00:00.000Z",
+        "dueDate": "2024-12-15T00:00:00.000Z",
+        "status": "approved",
+        "paymentMethod": "bank_transfer",
+        "paymentStatus": "completed",
+        "reference": "REF2024001",
+        "invoice": {
+            "number": "INV2024001",
+            "issueDate": "2024-12-01T00:00:00.000Z",
+            "dueDate": "2024-12-15T00:00:00.000Z"
+        },
+        "clientId": "client_001",
+        "employeeId": "emp_001",
+        "projectId": "proj_001",
+        "departmentId": "dept_001",
+        "tags": [
+            "urgent",
+            "recurring"
+        ],
+        "attachments": [
+            "invoice_001.pdf",
+            "receipt_001.jpg"
+        ],
+        "approvalHistory": [
+            {
+                "action": "approved",
+                "by": "admin",
+                "date": "2024-12-01T11:00:00.000Z",
+                "comment": "موافق عليها"
+            }
+        ],
+        "tax": {
+            "rate": 14,
+            "amount": 700,
+            "included": false
+        },
+        "recurring": {
+            "isRecurring": false,
+            "frequency": "monthly",
+            "nextDate": "2025-01-01T00:00:00.000Z",
+            "endDate": "2024-12-31T00:00:00.000Z"
+        },
+        "notes": "دفعة أولى من المشروع",
+        "createdBy": "admin",
+        "createdAt": "2024-12-01T10:00:00.000Z",
+        "updatedBy": "admin",
+        "updatedAt": "2024-12-01T10:00:00.000Z",
+        "approvedBy": "admin",
+        "approvedAt": "2024-12-01T11:00:00.000Z"
+    }
+]
